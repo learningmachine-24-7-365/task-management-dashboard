@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+body, input, button, textarea {
+	font-family: sdgothicneom, wantedsansm, -apple-system,blinkmacsystemfont,system-ui,roboto,Helvetica Neue,Segoe UI,Apple SD Gothic Neo,Noto Sans KR,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;
+	font-size: var(--text-size);
+	letter-spacing: calc(var(--text-size) * var(--text-spacing));
+	line-height: var(--line-text);
+	color: var(--black);
+	overflow: hidden;
+	padding: 0;
+	border: none;
+	vertical-align: middle;
+}
+input, textarea:focus {
+	border: none;
+}
+input, textarea::placeholder {
+	color: var(--gray-500);
+}
+textarea {
+	resize: none;
+}
+/* input, button에는 아무리 body에 font-family를 적용시킨다고 하더라도 상속되지 않음.  */
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: var(--line-title);
+	font-family: sdgothicneobd, wantedsansbd, -apple-system,blinkmacsystemfont,system-ui,roboto,Helvetica Neue,Segoe UI,Apple SD Gothic Neo,Noto Sans KR,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;
+	letter-spacing: calc(var(--text-size) * var(--title-spacing));
+}
+
+button {
+	cursor: pointer;
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent;
+}
+button:focus,
+button:active {
+    outline: none; 
+    box-shadow: none; 
+    background-color: none;
+}
+::selection {
+	background-color: var(--black);
+	color: var(--white);
+}

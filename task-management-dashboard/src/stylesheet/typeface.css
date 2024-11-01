@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'sdgothicneobd';
+	src: url('../../assets/fonts/APPLESDGOTHICNEOB.TTF');
+    unicode-range: U+1100-11FF, U+AC00-D7AF; /* 한글 유니코드 범위 */
+}
+@font-face {
+	font-family: 'sdgothicneom';
+	src: url('../../assets/fonts/APPLESDGOTHICNEOM.TTF');
+    unicode-range: U+1100-11FF, U+AC00-D7AF; /* 한글 유니코드 범위 */
+}
+@font-face {
+	font-family: 'wantedsansm';
+	src: url('../../assets/fonts/WANTEDSANSVARIABLE.TTF');
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'wantedsansbd';
+	src: url('../../assets/fonts/WANTEDSANSVARIABLE.TTF');
+	font-weight: 700;
+}

@@ -1,0 +1,19 @@
+:root {
+    /* letter-spacing */
+    --text-spacing: -0.018;
+    --title-spacing: -0.024;
+
+    /* line-spacing */
+    --line-text: 1.5em;
+    --line-title: 1.35em;
+
+    /* box width, height */
+    --toolbar-min-height: 56px;
+
+    /* font size */
+    --text-size: 15px;
+    --title-size: 26px;
+
+    /* border-radius */
+    --radius-small: 8px;
+}
